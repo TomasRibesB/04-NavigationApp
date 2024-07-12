@@ -1,7 +1,7 @@
 import { Text, View } from "react-native"
 import { globalStyles } from "../../theme/theme"
 import { FlatList } from "react-native-gesture-handler"
-import { PrimaryButton } from "../../components/PrimaryButton"
+import { PrimaryButton } from "../../components/shared/PrimaryButton"
 import { type NavigationProp, useNavigation } from "@react-navigation/native"
 import { type RootStackParams } from "../../routes/StackNavigator"
 
